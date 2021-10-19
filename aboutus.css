@@ -11,7 +11,7 @@
   background-color: #ddd;
 }
 .container {
-  width: 80%;
+  width: 73%;
   display: block;
   margin: auto;
   padding-top: 100px;
@@ -88,7 +88,7 @@
   }
   .image-section img {
     width: 100%;
-    height: auto;
+    height: 100px;
     display: block;
     margin: auto;
   }

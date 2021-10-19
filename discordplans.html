@@ -26,6 +26,11 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/images/ss.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/images/ss.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/images/ss.png">
+  <link rel="manifest" href="/public/site.webmanifest">
 </head>
 
 <body class="sub_page">
@@ -62,14 +67,14 @@
                 <li class="nav-item">
                   <a class="nav-link" href="https://panel.spacestark.xyz/auth/login"> Panel </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="redirectplan.html">Plan</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="aboutus.html">About Us </a>
                   </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact Us </a>
                 </li>
               </ul>
             </div>
@@ -81,42 +86,70 @@
   </div>
 
 
-  <!-- contact section -->
+  <!-- pricing section -->
 
-  <!-- Instant Support section -->
-  <section class="about_section layout_padding">
-    <div class="container-fluid">
+  <section class="pricing py-5">
+    <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/support.jpg" alt="" />
+        <!-- Free Tier -->
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Normal Plan</h5>
+              <h6 class="card-price text-center">$0.80<span class="period">/month</span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>250 Mb DDR4 Memory</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>500 Mb NVMe SSD</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>0.5 core( 50% )</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Server Slot</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 MySQL Database</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Discord.js | Java | Node.js | Discord.py</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>800 MB Ethernet</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Backup</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>DDOS Protected</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 Uptime</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Accses To Discord Support</li>
+                
+              </ul>
+              <div class="d-grid">
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IB8KPM6Wk7GCWz" async> </script> </form>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-5">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Instant Support
-              </h2>
+        <!-- Copper plan -->
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Copper Plan</h5>
+              <h6 class="card-price text-center">$6<span class="period">/month</span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>500 Mb DDR4 Memory</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1GB NVMe SSD</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>0.80 Cores ( 80% )</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Server Slots</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>2 MySQL Database</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Discord.js | Java | Node.js | Discord.py</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1GB Networking</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>3 Backups</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>DDOS Protected</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 Uptime</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Accses To Discord Support</li>
+              </ul>
+              <div class="d-grid">
+                
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IB8Pj7ye00oaIg" async> </script> </form>
+                
+              </div>
             </div>
-            <p>
-              We Have A World Class Support Team To Help You All With 
-              All Your Queries Related To Your Server And Our Service.
-              We Are Always Available To Help You With Our Support Team On Discord.
-            </p>
-            <div class="btn-box">
-              <a href="https://discord.gg/E87bNJajA8">
-                Join Discord
-              </a>
-            </div>
-            
           </div>
         </div>
-      </div>
     </div>
-  </section>
-  <!-- end Instant Support section -->
-
+   </div>
+</section>
+  <!-- end pricing section -->
 
   <div class="footer_bg">
     
@@ -142,7 +175,7 @@
                 <h4>Details</h4>
                 <ul>
                     <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="redirectplan.html">Plans</a></li>
+                  <li><a href="redirectplan.html">Plans</a></li>
                   <li><a href="privacypolicy.html">Privacy policy</a></li>
                   <li><a href="tos.html">Terms And Condtions</a></li>
                   <li><a href="partnership.html">PartnerShip</a></li>
