@@ -10,7 +10,7 @@
     Website For SpaceStark INC
     <br/>
     <br/>
-    <a href="https://github.com/Discord-Haker-2321/websitespacestark">View Demo</a>
+    <a href="https://spacestark.xyz">View Demo</a>
     .
     <a href="https://github.com/Discord-Haker-2321/websitespacestark/issues">Report Bug</a>
     .
@@ -34,6 +34,5 @@ and RazorPay For billing
 
 ## Acknowledgements
 
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+* [OCHEANIC](https://ocheanic.com/)
+
